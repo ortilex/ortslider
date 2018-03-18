@@ -16,9 +16,9 @@ function recent_post_createEntries(){
     var entriesArr = [];
     for(var i=0; i<latest_post; i++){
         var entry = entries[i];
+        var tag = entry.category[0].term;
         var entryObj = new Object();
         entryObj.title = entry.title.$t; 
-        var tag = entry.category[0].term;
         entryObj.href  = getHref(entry.link);
         entriesArr.push(entryObj);
     }
