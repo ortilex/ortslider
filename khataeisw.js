@@ -23,7 +23,6 @@
 
 //# sourceURL=coffeescript
 
-//<![CDATA[
 $(document)['ready'](function () {
         $('.cd-btn')['html']('<a href="/active.html">عرض المزيد</a>');
         setInterval(function () {
@@ -32,4 +31,3 @@ $(document)['ready'](function () {
                 };
             }, 3000);
     });
-//]]>
