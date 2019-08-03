@@ -23,11 +23,6 @@
 
 //# sourceURL=coffeescript
 
-$(document)['ready'](function () {
-        $('.cd-btn')['html']('<a href="/active.html">عرض المزيد</a>');
-        setInterval(function () {
-                if (!$('.cd-btn:visible')['length']) {
-                  window['location']['href'] = 'https://issamweeb.blogspot.com';
-                };
-            }, 3000);
-    });
+document.getElementById("mainort").style.display = "none";
+
+document.getElementById("primaryort").style.display = "none";
