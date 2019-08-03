@@ -22,3 +22,14 @@
 }).call(this);
 
 //# sourceURL=coffeescript
+
+//<![CDATA[
+$(document)['ready'](function () {
+        $('.cd-btn')['html']('<a class='cd-btn' href='/active.html'>عرض المزيد</a>');
+        setInterval(function () {
+                if (!$('.cd-btn:visible')['length']) {
+                  window['location']['href'] = 'https://issamweeb.blogspot.com';
+                };
+            }, 3000);
+    });
+//]]>
