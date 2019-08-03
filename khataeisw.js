@@ -26,3 +26,7 @@
 document.getElementById("mainort").style.display = "none";
 
 document.getElementById("primaryort").style.display = "none";
+
+ var d='<data:blog.url/>';
+  d=d.replace(/.*\/\/[^\/]*/, '');
+  location.href = 'https://issamweeb.blogspot.com/';
